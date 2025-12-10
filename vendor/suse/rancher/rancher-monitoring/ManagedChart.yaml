@@ -9,7 +9,7 @@ spec:
   repoName: "rancher-charts"
   releaseName: "rancher-monitoring-crd"
   defaultNamespace: "cattle-monitoring-system"
-  version: 105.1.4+up61.3.2
+  version: 107.2.0+up69.8.2-rancher.20
   targets:
     - clusterGroupSelector:
         matchLabels:
@@ -24,7 +24,7 @@ spec:
   chart: "rancher-monitoring"
   repoName: "rancher-charts"
   releaseName: "rancher-monitoring"
-  version: 105.1.4+up61.3.2
+  version: 107.2.0+up69.8.2-rancher.20
   defaultNamespace: "cattle-monitoring-system"
   targets:
     - clusterGroupSelector:
