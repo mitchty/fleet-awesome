@@ -24,6 +24,11 @@ spec:
   releaseName: "rancher-monitoring"
   version: 107.2.0+up69.8.2-rancher.20
   defaultNamespace: "cattle-monitoring-system"
+  values:
+    global:
+      cattle:
+        clusterId: c-2b5r5
+        clusterName: test
   targets:
     - clusterName: test
   diff:
