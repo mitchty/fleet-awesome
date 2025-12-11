@@ -12,6 +12,11 @@ spec:
   version: 107.2.0+up69.8.2-rancher.20
   targets:
     - clusterName: test
+  values:
+    global:
+      cattle:
+        clusterId: c-2b5r5
+        clusterName: test
 ---
 apiVersion: management.cattle.io/v3
 kind: ManagedChart
@@ -27,8 +32,8 @@ spec:
   values:
     global:
       cattle:
-        clusterId: global.fleet.clusterLabels.management.cattle.io/cluster-name
-        clusterName: global.fleet.clusterLabels.management.cattle.io/cluster-display-name
+        clusterId: c-2b5r5
+        clusterName: test
   targets:
     - clusterName: test
   diff:
