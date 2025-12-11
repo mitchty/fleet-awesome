@@ -27,8 +27,8 @@ spec:
   values:
     global:
       cattle:
-        clusterId: c-2b5r5
-        clusterName: test
+        clusterId: global.fleet.clusterLabels.management.cattle.io/cluster-name
+        clusterName: global.fleet.clusterLabels.management.cattle.io/cluster-display-name
   targets:
     - clusterName: test
   diff:
