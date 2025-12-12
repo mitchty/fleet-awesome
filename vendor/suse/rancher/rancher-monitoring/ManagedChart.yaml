@@ -15,7 +15,7 @@ spec:
   values:
     global:
       cattle:
-        clusterId: c-2b5r5
+        clusterId: c-8jkcd
         clusterName: test
 ---
 apiVersion: management.cattle.io/v3
@@ -32,7 +32,7 @@ spec:
   values:
     global:
       cattle:
-        clusterId: c-2b5r5
+        clusterId: c-8jkcd
         clusterName: test
   targets:
     - clusterName: test
